@@ -1,0 +1,26 @@
+PT/K/000501/KYNDRYL/Paixao, Vitor
+PT/K/000522/KYNDRYL/Sousa, Carlos
+PT/K/y9f2dy/KYNDRYL/Corte-Real, Pedro
+PT/K/001335/KYNDRYL/Basilio, Paulo
+PT/K/y9f2l0/KYNDRYL/Fernandes, Luis
+PT/K/y9f2l1/KYNDRYL/Almeida, Jorge
+PT/K/y9f2h5/KYNDRYL/Barbosa, Daniel
+PT/K/y9f2ha/KYNDRYL/Mendonca, Robert
+PT/K/001377/KYNDRYL/Lages, Pedro
+PT/F/*PTSTG/KYNDRYL/superuser
+PT/F/*PTSTG/KYNDRYL/TPC Data Collection
+PT/F/*PTSTG/KYNDRYL/autopuser
+PT/F/*PTSTG/KYNDRYL/Default Administration
+PT/F/*PTSTG/KYNDRYL/root
+PT/F/*PTSTG/KYNDRYL/user
+PT/F/*PTSTG/KYNDRYL/maintenance
+PT/F/*PTSTG/KYNDRYL/stguser
+PT/F/*PTSTG/KYNDRYL/sanuser
+PT/F/*PTSTG/KYNDRYL/sassstormon
+PT/F/*PTSTG/KYNDRYL/ptstormon
+PT/F/*PTSTG/KYNDRYL/IBM Network Advisor
+PT/F/*PTSTG/KYNDRYL/Storage admin
+PT/F/*PTSTG/KYNDRYL/Security admin
+PT/F/*PTSTG/KYNDRYL/Support admin
+PT/F/*PTSTG/KYNDRYL/User Monitor
+PT/F/*PTSTG/KYNDRYL/ptstoradmin

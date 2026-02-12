@@ -1,0 +1,10 @@
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|root||root|disable||root|root
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|admin||Administrator|enable||admin|admin
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|user||User|disable||user|user
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|inauser||PT/F/*PTSTG/IBM/INA|enable||admin|admin
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|tpcuser||PT/F/*PTSTG/IBM/Spectrum Control|enable||admin|admin
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|maintenance*||Maintenance|disable||maintenance|maintenance
+PTINF|S|INF_ALF_100_8960F96_781016D|SAN|NOTaRealID||000/V///20260212162342:CKSUM=3174084377:SUDO=NotAvailable|||--customer PTINF#|--customer PTINF#
+
+
+PTCSA|S|ALF-CSA-SOFTLAYER|IOS|NOTaRealID-Ansible||00/V///2026-02-02-03.53.16:FN=iam_extract.ps1:VER=V2.0.74:CKSUM=3167295684|||#a:tricode#o:C:\ansible\GTS\uidext\tricode_devicename_date.mef3 #kyndrylonly #g:Ansible ### FINAL_TS=2026-02-02-03.54.34 PROCNUM=1:PROCSPEED=2295:MEM=17179332608:NETWORK=10000000000 10000000000 10000000000|0|

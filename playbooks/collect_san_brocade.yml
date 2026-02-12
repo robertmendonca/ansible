@@ -1,0 +1,28 @@
+- name: Collect SAN Brocade local users (raw)
+  hosts: san_brocade
+  gather_facts: no
+  vars:
+    out_dir: "../outputs/raw"
+    ts: "{{ lookup('pipe','date +%Y%m%d%H%M%S') }}"
+  tasks:
+    - name: Run user listing command
+      ansible.builtin.raw: "userconfig --show -a"
+      register: userconfig_out
+
+    - name: Ensure customer folder exists
+      delegate_to: localhost
+      ansible.builtin.file:
+        path: "{{ out_dir }}/{{ customer }}"
+        state: directory
+        mode: "0755"
+
+    - name: Save userconfig output locally
+      delegate_to: localhost
+      ansible.builtin.copy:
+        dest: "{{ out_dir }}/{{ customer }}/{{ inventory_hostname }}.{{ ts }}.userconfig.txt"
+        content: |
+          ### HOST={{ inventory_hostname }}
+          ### IP={{ ansible_host }}
+          ### CUSTOMER={{ customer }}
+          ### TS={{ ts }}
+          {{ userconfig_out.stdout | default('') }}

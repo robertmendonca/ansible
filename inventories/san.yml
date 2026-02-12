@@ -1,0 +1,8 @@
+all:
+  children:
+    san_brocade:
+      hosts:
+        INF_ALF_100_8960F96_781016D:
+          ansible_host: 192.168.69.88
+          customer: PTINF
+          category: SAN

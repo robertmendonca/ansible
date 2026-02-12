@@ -1,0 +1,64 @@
+### HOST=INF_ALF_100_8960F96_781016D
+### IP=192.168.69.88
+### CUSTOMER=PTINF
+### TS=20260212162342
+
+Account name: root
+Description: root
+Enabled: No
+Password Last Change Date: Mon Jan 18 2021 (UTC)
+Password Expiration Date: Not Applicable (UTC)
+Locked: No
+Role: root
+Day Time Access: N/A
+REST Auth Token: No
+
+Account name: admin
+Description: Administrator
+Enabled: Yes
+Password Last Change Date: Tue Jul  9 2024 (UTC)
+Password Expiration Date: expired (UTC)
+Locked: No
+Role: admin
+Day Time Access: N/A
+REST Auth Token: No
+
+Account name: user
+Description: User
+Enabled: No
+Password Last Change Date: Fri Jan 10 2025 (UTC)
+Password Expiration Date: expired (UTC)
+Locked: No
+Role: user
+Day Time Access: N/A
+REST Auth Token: No
+
+Account name: inauser
+Description: PT/F/*PTSTG/IBM/INA
+Enabled: Yes
+Password Last Change Date: Tue Jan 19 2021 (UTC)
+Password Expiration Date: Not Applicable (UTC)
+Locked: No
+Role: admin
+Day Time Access: N/A
+REST Auth Token: No
+
+Account name: tpcuser
+Description: PT/F/*PTSTG/IBM/Spectrum Control
+Enabled: Yes
+Password Last Change Date: Tue Jan 19 2021 (UTC)
+Password Expiration Date: Not Applicable (UTC)
+Locked: No
+Role: admin
+Day Time Access: N/A
+REST Auth Token: No
+
+Account name: maintenance*
+Description: Maintenance
+Enabled: No
+Password Last Change Date: Unknown (UTC)
+Password Expiration Date: Not Applicable (UTC)
+Locked: No
+Role: maintenance
+Day Time Access: N/A
+REST Auth Token: No
